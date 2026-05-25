@@ -11,26 +11,6 @@ uint16_t STRAIGHT_MASK=0b11111;
 string suits[]={"c","d","h","s"};
 string ranks[]={"","A","2","3","4","5","6","7","8","9","T","J","Q","K","A"}; // wheel
 
-// const int SMALL_BLIND=5;
-// const int BIG_BLIND=10;
-
-// vector<int> perm(52);
-
-// Deck generate_deck(){
-//     Deck deck;
-//     deck.reserve(52);
-
-//     iota(perm.begin(),perm.end(),0);
-
-//     for(int r=1;r<14;r++)
-//         for(string s:suits)
-//             deck.push_back(ranks[r]+s);
-
-//     return deck;
-// }
-
-// Deck deck=generate_deck();
-
 
 
 
