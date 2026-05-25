@@ -610,9 +610,7 @@ int main(){
 
             cin>>cards[0]>>cards[1];
 
-            players.push_back(
-                hand_generator(cards)
-            );
+            players.push_back(hand_generator(cards));
         }
 
         vector<string> boardCards(m);
@@ -620,7 +618,7 @@ int main(){
         for(int i=0;i<m;i++)
             cin>>boardCards[i];
 
-        Hand board=hand_generator(boardCards);
+        Hand board = hand_generator(boardCards);
 
         vector<double> equity = multiway_equity(players, board, m<3);
 
@@ -629,7 +627,7 @@ int main(){
         for(double x:equity)
             cout<<x<<" ";
 
-        cout<<"\n";
+        cout<<endl;
     }
 
     return 0;
