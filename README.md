@@ -130,14 +130,14 @@ Qh Qd
 Output:
 
 ```text
-61.245 28.712 10.043
+82.060 9.192 8.749 
 ```
 
 Interpretation:
 
-- Player 1 → 61.245% equity
-- Player 2 → 28.712% equity
-- Player 3 → 10.043% equity
+- Player 1 → 82.060% equity
+- Player 2 → 9.192% equity
+- Player 3 → 8.749% equity
 
 ---
 
