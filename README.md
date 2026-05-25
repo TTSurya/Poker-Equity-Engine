@@ -160,6 +160,3 @@ Interpretation:
 - Lookup-table optimization
 - Visualization tools and interface support
 
----
-
-The project focuses on efficient probability computation and algorithmic optimization for evaluating decision-making under uncertainty in Texas Hold'em.
